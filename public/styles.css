@@ -6,7 +6,6 @@
 body{
     background-color: rgb(42, 40, 59);
     color: white;
-    overflow-x: hidden;
 }
 
 .Container, #balance,.formlayout,.Expenses{
@@ -19,11 +18,9 @@ body{
     justify-content: center;
     text-align: center;
     align-items: center;
-    min-height:80vh;
+    min-height:100vh;
     background-image:url(bg2.jpg);
-    box-shadow:1px 1px 5px 1px aqua;
-    border-radius:30px;
-    margin:20px;
+    border:2px solid aqua;
     padding:20px;
 }
 
